@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.login-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.1), -6px -6px 10px rgba(255, 255, 255, 0.8);
+    width: 390px;
+    height: auto;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-box form {
+    margin-bottom: 20px;
+}
+#login-icon{
+    color: #7f8fa6;
+}
+#btn-login{
+    background-color:#2ecc71;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#btn-login:hover {
+    background-color: #27ae60;
+    transform: scale(1.05);
+}
+#btn-signup{
+    box-sizing: border-box;
+    margin: auto;
+    background-color: #3498db;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+#btn-signup:hover{
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+#btn-back{
+    margin-top: auto;
+}
+#alert-message {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+#success-message {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
