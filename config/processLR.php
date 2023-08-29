@@ -30,7 +30,6 @@ if (isset($_POST['acao'])) {
             $conn = null;
             header("Location: ../login.php");
             break;
-            die();
         case "register":
             $userVerify = new UserVerify($conn);
             $verifications = array(
@@ -70,6 +69,5 @@ if (isset($_POST['acao'])) {
             $conn = null;
             header("Location: ../register.php");
             break;
-            die();
     }
 }
